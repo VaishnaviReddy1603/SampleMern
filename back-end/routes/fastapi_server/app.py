@@ -16,4 +16,7 @@ def updateStudent():
 def deleteStudent():
     return "delete student method called"
 #localhost:8000/getParticularStudent/5
-@app.get("")
+@app.get("/getParticularStudent")
+def getParticularStudent(userid:int):
+    return ""
+#localhost:8000/get
