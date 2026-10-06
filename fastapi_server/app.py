@@ -19,4 +19,4 @@ def deleteStudent():
 @app.get("/getParticularStudent")
 def getParticularStudent(userid:int):
     return ""
-#localhost:8000/get
+#localhost
